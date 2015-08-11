@@ -5,12 +5,12 @@ tooltips
 ^Criança^
 ^Mulher^
 ^Homem^
-^Escuro^
-^Médio^
-^Claro^
-^Corpo anterior^
-^Proximo corpo^
-^cabeça anterior^
+^Negro^
+^Moreno^
+^Branco^
+^Conjunto anterior^
+^Proximo Conjunto^
+^Cabeça anterior^
 ^Proxima cabeça^
 ^Pronto^
 ^Cancelar^
@@ -19,7 +19,7 @@ tooltips
 ^Tem certeza que deseja criar %s sem personalidade?^
 
 // not actually used yet, but will be:
-^Criar um personagem^
+^Criar um Sim^
 ^Personalidade^
 ^Puro^
 ^extrovertido^
@@ -32,4 +32,4 @@ tooltips
 ^Biografia para %s^
 
 ^Colocar nome:^
-^astrológico Signo^
+^Signo^
