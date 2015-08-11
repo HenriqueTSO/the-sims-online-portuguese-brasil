@@ -1,0 +1,133 @@
+#145#OptionStrs.cst
+
+// all coordinates are in OptionsBack.bmp coordinates...i.e., (0;0) is the coordinate of
+// the top-left-most pixel in OptionsBack.bmp
+
+// main options panel buttons (6)
+1st column
+^(88;6)^
+	^Vizinhança^
+^(29;6)^
+	^Salvar^
+^(159;6)^
+	^Sair^
+
+2nd column...start position computed from width of 1st column
+^(29;58)^
+	^Graphics Options^
+^(89;58)^
+	^Sound Options^
+^(151;58)^
+	^Play Options^
+
+
+
+
+Graphics options
+^(275;9)^		// start tiling
+^(200;20)^		// tile delta
+
+^Anti-alias^
+^Sobre Anti-aliasing^
+^O recurso Anti-alias faz com que as bordas dos objetos pareça mais suave e menos jaggy.Desligar Anti-alias irá mostrar arestas que são menos suave, mas o desempenho do jogo vai melhorar.^
+
+^Sombras^
+^Sobre Sombras^
+^Sombras aparecem em alguns objetos para melhorar sua aparência. Passando sombras fora irá remover as sombras e irá melhorar o desempenho do jogo.^
+
+^Iluminação^
+^Sobre iluminação^
+^O ecrã do jogo é sempre iluminado por uma certa quantidade de luz ambiente. Além disso, certos objectos, tais como as lâmpadas pode ser utilizado para proporcionar luz adicional. Esta opção permite que você desligar a luz lançada por objetos que melhora o desempenho do jogo.^
+
+^Efeitos de interface^
+^Sobre efeitos de interface^
+^Esta opção ativa muitos interface com o usuário de efeitos especiais. Desligue-o para um desempenho mais rápido.^
+
+^(480;30)^		// start tiling..this is actually the TOP RIGHT of the text
+^(200;26)^		// tile delta
+
+^Detalhes de terreno^
+^Sobre detalhes de terreno^
+^Detalhe do terreno refere-se ao nível de detalhe da grama. Alta detalhe mostra muitas lâminas de grama. Baixa detalhe significa menos lâminas de grama e um desempenho mais rápido.^
+
+^Detalhes de personagem^
+^Sobre detalhes de personagem^
+^Detalhe de personagem se refere à quantidade de sombreamento e filtragem de luz é utilizado nos Sims. Detalhe alto dá-lhe a melhor qualidade gráfica, de baixo detalhe dá-lhe o melhor desempenho do jogo.^
+
+
+// tiler origin for check boxes
+^(245;7)^		// start tiling
+^(200;20)^		// tile delta
+
+^(80;20)^		// dimensions of radio button groups
+
+// tiler origin for radio button groups
+^(485;30)^		// start tiling
+^(200;26)^		// tile delta
+
+// these are automatically positioned
+// relative to the radio button triplets
+^Baixo^
+^Médio^
+^Alto^
+
+// SOUNDS
+^(305;13)^		// start tiling
+^(200;28)^		// tile delta
+
+^F/X^
+^Sound Effects^
+^Use this volume control to set your preferred volume for all the game sounds and the TV.^
+
+^Music^
+^Music^
+^Use this volume control to set your preferred volume for all the music in the game including the stereo.^
+
+^Vox^
+^Vox^
+^Use this volume control to set your preferred volume for the voices of the Sims.^
+
+^(130;0)^		// width of slider.  y term ignored
+
+// PLAY OPTIONS
+^(275;9)^		// start tiling
+^(200;20)^		// tile delta
+
+^Auto-Centralização^
+^Sobra auto-centralização^
+^O jogo gira automaticamente a tela em um evento especial quando se está ocorrendo. Esta opção desativa esse recurso auto-centralização.^
+
+^Livre arbítrio^
+^Sobre Livre arbítrio^
+^Livre Arbítrio se refere à capacidade dos Sims para viver suas vidas por si mesmos sem a sua ajuda. Se eles têm livre arbítrio eles costumam responder aos seus comandos, mas se você deixá-los sozinhos por um tempo eles vão começar a fazer as coisas por conta própria. Se você é um maníaco por controle e gostaria que esperar pacientemente para o seu fim cada, desativar esse recurso.A propósito, os visitantes têm sempre o livre arbítrio.^
+
+^Borda scrolling^
+^Sobre borda scrolling^
+^Com borda de rolagem, quando o mouse atinge a borda da tela, o ecrã de jogo. Desligue esta opção se você preferir.^
+
+^Sim No Fundo^
+^Sobre sim no fundo^
+^Você pode pressionar Alt-Tab para ir para outra janela ativa enquanto você estiver jogando The Sims Online. Normalmente, o jogo vai simplesmente fazer uma pausa quando você faz isso. No entanto, se você quer Os Sims continuar a viver suas vidas, enquanto você está ocupado em outro lugar, ligue Sim (Ulate) em fundo.^
+
+^(521;24)^
+^Resetar tutorial^
+^Sobre resetar tutorial^
+^Uma vez que o tutorial foi jogado, a fim de jogá-lo novamente ele deve ser redefinido. Este botão é utilizado para esse fim. No entanto, quaisquer modificações para a propriedade e Sims que vivem lá serão perdidas. Além disso, se uma outra família foi transferida para a propriedade que eles serão despejados.^
+
+// MORE PLAY OPTIONS
+
+^Dicas rápidas^
+^Sobre dicas rápidas^
+^Exibe ajuda janelas pop-up sem fazer uma pausa ou exigindo um clique do mouse.^
+
+^Auto Snapshot^
+^Sobre Auto Snapshot^
+^Coloca automaticamente uma foto no álbum de fotos quando ocorrem eventos significativos.^
+
+^Live PIP^
+^Sobre Live PIP^
+^PIP significa "foto em foto". Quando certos eventos ocorrem uma pequena janela ativa é apresentado a realçar o evento. Para um melhor desempenho em máquinas lentas, esta opção deve ser desligado.^
+
+^Exportar HTML^
+^Sobre Exportar HTML^
+^Ative esse recurso para gerar páginas da web sobre cada um de seus familiares quando eles são salvos.Desligue para salvar mais rápido seu jogo.^
